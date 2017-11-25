@@ -2,7 +2,7 @@
 #menuprincipal{
     margin-right: 10%;
     margin-top: 1%;
-    margin-bottom: 2.5%;
+   /* margin-bottom: 2.5%;*/
     padding-top: 2%;
 }
 /*modifica los limites del slider*/
@@ -11,8 +11,11 @@
     margin-left: 0.5%;
     margin-bottom: 2%;
     margin-right: 1%;
-    max-height: 550px;
+    min-height: 550px;
     
+}
+.carousel-inner>.item>img.escritorio{
+    height: 500px;
 }
 /*Modifica el tipo de imagen que se despliega en el slider sea destop o movil*/
 .carousel-inner>.item>img.movil{
@@ -26,7 +29,7 @@
 .navbar-brand>img{
    
     max-height: 100px;
-   padding-bottom: 20px;
+   padding-bottom: 25px;
 
 }
 /*FIN DE PAGINA PRINCIPAL*/
@@ -35,6 +38,8 @@
 .hojas{
     margin-top: 5%;
 }
+
+
 
 
 @media only screen and (max-width: 768px) {
